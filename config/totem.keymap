@@ -46,7 +46,7 @@ label= "BASE"
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &mt LGUI A  &mt LALT R  &kp S       &mt LCTRL T &kp G           &kp M       &mt RCTRL N &kp E       &mt RALT I  &mt RGUI O
     &kp ESC     &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp TAB
-                                        &kp BSPC    &lt NAV DEL &kp SHIFT       &kp SPACE   &lt SYM RET &kp DEL
+                                        &kp BSPC    &lt NAV DEL &kp LSHIFT      &kp SPACE   &lt SYM RET &kp DEL
                         >;
                 };
 
