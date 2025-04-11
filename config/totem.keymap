@@ -67,8 +67,8 @@ label= "SYM";
  bindings = <
 
                 &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp MINUS         &kp EQUAL     &kp PRCNT     &kp CARET     &kp AMPS      &kp STAR
-                &kp LT        &kp LBRC      &kp LPAR      &kp LBRK      &kp NUBS          &kp GRAVE     &kp RBRK      &kp RPAR      &kp RBRC      &kp GT
-    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4  &kp SQT           &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT    &kp BSLH     &bootloader
+                &kp LT        &kp LBRC      &kp LPAR      &kp LBKT      &kp NUBS          &kp GRAVE     &kp RBKT      &kp RPAR      &kp RBRC      &kp GT
+    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp SQT           &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT    &kp BSLH     &bootloader
                                             &trans        &kp DEL       &kp DEL           &trans        &kp C_PP      &trans
                         >;
                 };
