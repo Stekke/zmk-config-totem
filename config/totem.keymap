@@ -1,3 +1,4 @@
+
 //
 //                                                        ▀▀▀▀▀     ▀▀▀▀▀          ▀▀█▀▀
 //                                                        ▄▀▀▀▄  ▄  ▄▀▀▀▄  ▄  ▄▀▀▀▄  █  ▄▀▀▀▄
@@ -40,7 +41,7 @@
         keymap {
                 compatible = "zmk,keymap";
                 base_layer {
-label= "BASE"
+label= "BASE";
  bindings = <
 
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
@@ -51,7 +52,7 @@ label= "BASE"
                 };
 
                 nav_layer {
-label= "NAV"
+label= "NAV";
  bindings = <
 
                 &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL   &kp LBRC        &kp RBRC    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
@@ -62,13 +63,13 @@ label= "NAV"
                 };
 
                 sim_layer {
-label= "SYM"
+label= "SYM";
  bindings = <
 
                 &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp MINUS       &kp EQUAL   &kp PRCNT   &kp CARET   &kp AMPS    &kp STAR
                 &kp LT      &kp LBRC    &kp LPAR    &LBRK       &kp NUBS        &kp GRAVE   &kp RBRK    &RPAR       &RBRC       &kp GT
     &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &bt BT_SEL 4 &SQT        &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &bootloader
-                                        &trans      &kp DEL        &kp DEL         &trans      &kp C_PP    &trans
+                                        &trans      &kp DEL     &kp DEL         &trans      &kp C_PP    &trans
                         >;
                 };
         };
